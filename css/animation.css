@@ -1,0 +1,119 @@
+/* Landing-img-move */
+@keyframes Landing-img-move {
+  0%,
+  100% {
+    top: 0px;
+  }
+  50% {
+    top: -50px;
+  }
+}
+/* Landing-img-move */
+
+/* Landing-arrow-move */
+@keyframes Landing-arrow-move {
+  0%,
+  10%,
+  20%,
+  50%,
+  80%,
+  100% {
+    bottom: 0;
+  }
+  40%,
+  60% {
+    bottom: 15px;
+  }
+}
+/* Landing-arrow-move */
+
+/* main-heading left move */
+@keyframes main-heading-left-move {
+  50% {
+    left: 0;
+    height: 12px;
+    width: 12px;
+  }
+
+  100% {
+    left: 0;
+    height: 100%;
+    width: 60%;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+}
+/* main-heading left move */
+
+/* main-heading left move */
+@keyframes main-heading-right-move {
+  50% {
+    right: 0;
+    height: 12px;
+    width: 12px;
+  }
+
+  100% {
+    right: 0;
+    height: 100%;
+    width: 60%;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+}
+/* main-heading right move */
+
+/* articles info arrow move */
+@keyframes articles-info-arrow-move {
+  50% {
+    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+    -moz-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    -o-transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+}
+/* articles info arrow move */
+
+/* gallery image flashing  */
+@keyframes gallery-image-flashing {
+  0%,
+  40% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    width: 200%;
+    height: 200%;
+  }
+}
+/* gallery image flashing  */
+
+/* work image flashing  */
+@keyframes work-image-flashing {
+  0%,
+  40% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    width: 200%;
+    height: 200%;
+  }
+}
+/* work image flashing  */
